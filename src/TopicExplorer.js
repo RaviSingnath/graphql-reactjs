@@ -28,12 +28,12 @@ function TopicExplorer() {
     <Container>
       <Row className='my-4'>
         <Col className="bg-light border py-3">
-          <label for="search-topic">Search Topic</label>
-          <div class="input-group mb-3">
+          <label htmlFor="search-topic">Search Topic</label>
+          <div className="input-group mb-3">
             <input
               type="text"
               id="search-topic"
-              class="form-control"
+              className="form-control"
               placeholder="Search Topic"
               value={text}
               onChange={(e) => setText(e.target.value)}
